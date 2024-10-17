@@ -1,0 +1,4 @@
+git clone https://github.com/mahmoodlab/CONCH.git
+huggingface_hub
+torch
+PIL
