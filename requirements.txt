@@ -1,4 +1,4 @@
-git+https://github.com/mahmoodlab/CONCH.git
+git+https://github.com/mahmoodlab/CONCH.git#egg=CONCH
 huggingface_hub
 torch
 
