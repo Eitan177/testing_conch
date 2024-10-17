@@ -4,7 +4,7 @@ from conch.open_clip_custom import create_model_from_pretrained, get_tokenizer, 
 
 import torch
 from huggingface_hub import login
-login(st.secrets['hf'])
+login(st.secrets["huggingfacekeys"]["HF"])
 # Load the pretrained model and transforms
 #model = create_model("hf-hub:MahmoodLab/UNI", pretrained=True, init_values=1e-5, dynamic_img_size=True)
 # Load the model
