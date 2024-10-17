@@ -1,5 +1,6 @@
 import streamlit as st
 from PIL import Image
+import conch
 from conch.open_clip_custom import create_model_from_pretrained, get_tokenizer, tokenize
 
 import torch
