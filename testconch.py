@@ -11,7 +11,7 @@ login(st.secrets["huggingfacekeys"]["HF"])
 # Load the model
 @st.cache_resource
 def load_model():
-    model, preprocess = create_model_from_pretrained('conch_ViT-B-16', "hf_hub:MahmoodLab/conch")
+    model, preprocess = create_model_from_pretrained('conch_ViT-B-16', "hf_hub:MahmoodLab/conch",hf_auth_token=st.secrets["huggingfacekeys"]["HF"])
     return model, preprocess
 
 model, preprocess = load_model()
